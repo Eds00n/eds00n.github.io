@@ -54,3 +54,47 @@ font-family: 'Playfair Display SC', serif;
     box-shadow: 0 0 15px rgba(102, 102, 102, 0.445);
     transform: translate(0) 500ms;
 }
+
+
+@media (max-width:600px){
+  .logo{
+    width: 54%;
+    margin-top: 30%;
+    }
+    h1{
+      font-size: 100%;
+    }
+  
+    h2{
+      font-size: 100%;
+    }
+}
+
+@media (max-width:900px){
+  .logo{
+    width: 56%;
+    margin-top: 6%;
+    }
+}
+
+
+@media (max-width:700px){
+  .logo{
+    width: 54%;
+    margin-top: 20%;
+    }
+}
+
+@media (max-width:500px){
+  .logo{
+    width: 50%;
+    margin-top: 40%;
+    }
+    h1{
+      font-size: 80%;
+    }
+  
+    h2{
+      font-size: 80%;
+    }
+}
